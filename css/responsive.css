@@ -1,0 +1,1408 @@
+/*
+    ========================================
+    CRYSTAL FOUNTAIN - RESPONSIVE THEME
+    ========================================
+    
+    @author         : EIDO DESIGN
+    @version        : v1.1
+    @date-create    : 6/6/2016
+    @last-update    : 6/6/2016
+    @file-name      : responsive
+
+*/
+@media screen and (min-width:1441px){
+
+	#welcome {
+		padding-top: 100px;
+		padding-bottom: 100px;
+	}
+
+	#welcome_info .container{
+		padding-top: 120px;
+		padding-bottom: 10px;
+	}
+
+	#welcome_confirm {
+		margin-top: 100px;
+
+	}
+
+	/* MOBILE DISPLAY  */
+	#welcome_mobile {
+		display: none;
+	}
+
+	/* Personal Information Section 1 */
+
+ 	#pi_section1{
+ 		padding-top: 100px;
+ 	}
+
+ 	#section1_margin{
+ 		padding-top: 120px;
+ 	}
+
+ 	#pi_section1 img{
+ 		width: 280px;
+ 		height: 280px;
+ 	}
+
+ 	#pi_section1 .form-control{
+ 		width: 400px;
+		font-size: 16px;
+ 	}
+
+ 	#pi_section1 label{
+ 		float: left;
+ 		padding-top: 10px;
+ 		padding-right: 20px;
+ 		font-size: 17px;
+ 	}
+
+ 	/* Personal Information Section 2 */
+ 	#pi_section2 {
+ 		padding-top: 45px;
+ 		padding-bottom: 150px;
+ 	}
+ 	#pi_section2 .container{
+ 		padding-left: 40px;
+ 		padding-right: 40px;
+ 	}
+
+ 	#pi_section2 label {
+ 		font-size: 15px;
+ 	}
+
+ 	#pi_section2 .form_with{
+ 		max-width: 250px;
+ 	}
+ 	#pi_section2 .carousel-indicators {
+	    position: absolute;
+	    left: 45%;
+	    z-index: 100;
+	    width: 60%;
+	    margin-left: -30%;
+	    padding-left: 0;
+	    list-style: none;
+	    text-align: center;
+	    bottom: 50px;
+	}
+ 	#pi_section2 .carousel-indicators li {
+	    display: inline-block;
+	    width: 12px;
+	    height: 12px;
+	    margin: 1px;
+	    text-indent: -999px;
+	    border: 1px solid #1c222b;
+	    border-radius: 10px;
+	    cursor: pointer;
+	}
+
+	#pi_section2 .pi_btn{
+		position: absolute;
+		bottom: 60px;
+		right: 40%;
+	}
+
+	/* 
+	=========================
+	[3. Health History ]
+	=========================
+*/	
+
+	/* Health History Subtitle Description */
+
+	.hh_discription{
+		max-width: 800px;
+	}
+
+	/* Health History Choice */
+
+	.cp_line{
+		width: 900px;
+	}
+
+	.cp_line2{
+		width: 900px;
+		padding-top: 65px;
+	}
+
+	.cp_line3{
+		padding-top: 55px;
+		width: 900px;
+
+	}
+
+	#gyn_surgery{
+		width: 170px;
+	}
+
+	#pregnant {
+		width: 170px;
+	}
+
+	.rl_line{
+		width: 900px;
+	}
+
+	.cpain_line{
+		position: absolute; /* Made it to Position Absolute coz the ui can align with the radios , History_choice is the parent for position:relative; */
+		padding-top: 45px;
+		text-align: left;
+	}
+
+	.rl_line{
+		position: absolute; /* Made it to Position Absolute coz the ui can align with the radios , History_choice is the parent for position:relative; */
+		padding-top: 106px;
+		text-align: left;
+	}
+
+	.sp_line{
+		position: absolute; /* Made it to Position Absolute coz the ui can align with the radios , History_choice is the parent for position:relative; */
+		padding-top: 165px;
+		text-align: left;
+	}
+
+	.mj_gap{
+		padding-bottom: 60px;
+	}
+
+	.mj_gap2{
+		padding-bottom: 65px;
+	}
+
+	.subtitle_toptb{
+		padding-top: 20px;
+	}
+
+	.history_choice .carousel-indicators {
+	    position: absolute;
+	    left: 44%;
+	    z-index: 100;
+	    width: 60%;
+	    margin-left: -30%;
+	    padding-left: 0;
+	    list-style: none;
+	    text-align: center;
+	    bottom: 50px;
+	}
+ 	.history_choice .carousel-indicators li {
+	    display: inline-block;
+	    width: 12px;
+	    height: 12px;
+	    margin: 1px;
+	    text-indent: -999px;
+	    border: 1px solid #1c222b;
+	    border-radius: 10px;
+	    cursor: pointer;
+	}
+
+	.history_choice .pi_btn{
+		position: absolute;
+		bottom: 60px;
+		right: 36%;
+	}
+
+	/* 
+	=========================
+	[3. Login Page]
+	=========================
+*/
+	.login{
+		padding-top: 15%;
+	}
+
+	.login .container{
+		width: 600px;
+	}
+
+	.login .form-control{
+ 		padding-bottom: 0;
+ 		border-bottom: 0;
+ 		border-width:0px;
+		border:none;
+		border-bottom: 1px #e6e7e8 solid;
+		padding-left: 0;
+	}
+	
+	/* 
+	=========================
+	[3. Client Information]
+	=========================
+*/	
+	#client_info_section1 #client_info_left #cil_list{
+		padding-left: 20px;
+		padding-right: 20px;
+	}
+
+
+	#client_info_right {
+		background: white;
+		padding-bottom: 80px;
+		padding-left: 20px;
+		padding-top: 80px;
+	}
+
+	#client_info_section3 .visible-lg {
+		display: inline-block!important;
+	}
+
+
+	/* 
+	=========================
+	[3. Nav ]
+	=========================
+*/	
+	
+	.navbar .right_nav{
+		right: 0;
+
+	}
+
+	.right_nav ul li{
+
+		padding-bottom: 20px;
+		padding-top: 30px;
+	}
+
+}
+
+@media screen and (min-width:992px) and (max-width:1440px){
+	/* Nav Bar*/
+	.navbar .form-control{
+		width: 400px;
+	}
+	.navbar h4{
+		font-size: 14px;
+
+	}
+
+	.navbar .right_nav{
+		padding-right: 20px;
+
+	}
+	.navbar h4{
+		padding-right: 30px;
+		padding-left: 30px;
+
+	}
+
+	.right_nav .glyphicon-cog{
+		padding-left: 10px;
+		padding-right: 10px;
+
+	}
+
+	.right_nav .off_icon{
+		padding-left: 10px;
+		padding-right: 10px;
+	}
+
+	/* Weclome Page */
+    #welcome {
+		padding-top: 100px;
+		padding-bottom: 100px;
+	}
+
+	#welcome_info .container{
+		padding-top: 70px;
+		padding-bottom: 10px;
+	}
+
+	#welcome_confirm {
+		margin-top: 60px;
+
+	}
+
+	/* MOBILE DISPLAY  */
+	#welcome_mobile {
+		display: none;
+	}
+
+
+	/* Personal Information Section 1 */
+
+ 	#pi_section1{
+ 		padding-top: 100px;
+ 	}
+
+ 	#section1_margin{
+ 		padding-top: 120px;
+ 	}
+
+ 	#pi_section1 img{
+ 		width: 280px;
+ 		height: 280px;
+ 	}
+
+ 	#pi_section1 .form-control{
+ 		width: 400px;
+		font-size: 16px;
+ 	}
+
+ 	#pi_section1 label{
+ 		float: left;
+ 		padding-top: 10px;
+ 		padding-right: 20px;
+ 		font-size: 17px;
+ 	}
+
+ 	/* Personal Information Section 2 */
+ 	#pi_section2 {
+ 		padding-top: 45px;
+ 		padding-bottom: 150px;
+ 	}
+ 	#pi_section2 .container{
+ 		padding-left: 40px;
+ 		padding-right: 40px;
+ 	}
+
+ 	#pi_section2 label {
+ 		font-size: 15px;
+ 	}
+
+ 	#pi_section2 .form_with{
+ 		max-width: 250px;
+ 	}
+ 	#pi_section2 .carousel-indicators {
+	    position: absolute;
+	    left: 45%;
+	    z-index: 100;
+	    width: 60%;
+	    margin-left: -30%;
+	    padding-left: 0;
+	    list-style: none;
+	    text-align: center;
+	    bottom: 50px;
+	}
+ 	#pi_section2 .carousel-indicators li {
+	    display: inline-block;
+	    width: 12px;
+	    height: 12px;
+	    margin: 1px;
+	    text-indent: -999px;
+	    border: 1px solid #1c222b;
+	    border-radius: 10px;
+	    cursor: pointer;
+	}
+
+	#pi_section2 .pi_btn{
+		position: absolute;
+		bottom: 60px;
+		right: 40%;
+	}
+
+
+	/* 
+	=========================
+	[3. Health History ]
+	=========================
+*/	
+
+	/* Health History Subtitle Description */
+
+	.hh_discription{
+		max-width: 800px;
+	}
+
+	/* Health History Choice */
+
+	.cp_line{
+		width: 900px;
+	}
+
+	.cp_line2{
+		width: 900px;
+		padding-top: 65px;
+	}
+
+	.cp_line3{
+		padding-top: 55px;
+		width: 900px;
+
+	}
+
+	#gyn_surgery{
+		width: 170px;
+	}
+
+	#pregnant {
+		width: 170px;
+	}
+
+	.rl_line{
+		width: 900px;
+	}
+
+	.cpain_line{
+		position: absolute; /* Made it to Position Absolute coz the ui can align with the radios , History_choice is the parent for position:relative; */
+		padding-top: 45px;
+		text-align: left;
+	}
+
+	.rl_line{
+		position: absolute; /* Made it to Position Absolute coz the ui can align with the radios , History_choice is the parent for position:relative; */
+		padding-top: 106px;
+		text-align: left;
+	}
+
+	.sp_line{
+		position: absolute; /* Made it to Position Absolute coz the ui can align with the radios , History_choice is the parent for position:relative; */
+		padding-top: 165px;
+		text-align: left;
+	}
+
+	.mj_gap{
+		padding-bottom: 60px;
+	}
+
+	.mj_gap2{
+		padding-bottom: 65px;
+	}
+
+	.subtitle_toptb{
+		padding-top: 20px;
+	}
+
+	.history_choice .carousel-indicators {
+	    position: absolute;
+	    left: 44%;
+	    z-index: 100;
+	    width: 60%;
+	    margin-left: -30%;
+	    padding-left: 0;
+	    list-style: none;
+	    text-align: center;
+	    bottom: 50px;
+	}
+ 	.history_choice .carousel-indicators li {
+	    display: inline-block;
+	    width: 12px;
+	    height: 12px;
+	    margin: 1px;
+	    text-indent: -999px;
+	    border: 1px solid #1c222b;
+	    border-radius: 10px;
+	    cursor: pointer;
+	}
+
+	.history_choice .pi_btn{
+		position: absolute;
+		bottom: 60px;
+		right: 36%;
+	}
+
+	/* 
+	=========================
+	[3. Login Page]
+	=========================
+*/
+	.login{
+		padding-top: 20%;
+	}
+
+	.login .container{
+		width: 600px;
+	}
+
+	.login .form-control{
+ 		padding-bottom: 0;
+ 		border-bottom: 0;
+ 		border-width:0px;
+		border:none;
+		border-bottom: 1px #e6e7e8 solid;
+		padding-left: 0;
+	}
+
+	/* 
+	=========================
+	[3. Client Information]
+	=========================
+*/	
+	#client_info_section1 #client_info_left #cil_list{
+		padding-left: 20px;
+		padding-right: 20px;
+	}
+
+
+	#client_info_right {
+		background: white;
+		padding-bottom: 80px;
+		padding-left: 20px;
+		padding-top: 80px;
+	}
+
+	#client_info_section3 .visible-lg {
+		display: inline-block!important;
+	}
+
+
+	/* 
+	=========================
+	[3. Nav ]
+	=========================
+*/	
+	
+	.navbar .right_nav{
+		right: 0;
+
+	}
+
+	.right_nav ul li{
+
+		padding-bottom: 20px;
+		padding-top: 30px;
+	}
+}
+
+
+@media screen and (min-width:769px) and (max-width:991px) {
+
+    #welcome {
+		padding-top: 150px;
+		padding-bottom: 150px;
+	}
+
+
+	#welcome_info .container {
+		padding-top: 130px;
+		padding-bottom: 80px;
+		max-width: 700px;
+	}
+
+	#welcome_confirm {
+		padding-top: 150px;
+
+	}
+
+	/* MOBILE DISPLAY  */
+	#welcome_mobile {
+		display: none;
+	}
+	/* Personal Information Section 1 */
+
+ 	#pi_section1{
+ 		padding-top: 100px;
+ 	}
+
+ 	#section1_margin{
+ 		padding-top: 120px;
+ 	}
+
+ 	#pi_section1 img{
+ 		width: 280px;
+ 		height: 280px;
+ 	}
+
+ 	#pi_section1 .form-control{
+ 		width: 350px;
+		font-size: 16px;
+ 	}
+
+ 	#pi_section1 label{
+ 		float: left;
+ 		padding-top: 10px;
+ 		padding-right: 20px;
+ 		font-size: 17px;
+ 	}
+
+ 	/* Personal Information Section 1 */
+ 	#pi_section2 {
+ 		padding-top: 45px;
+ 		padding-bottom: 150px;
+ 	}
+ 	#pi_section2 .container{
+ 		padding-left: 40px;
+ 		padding-right: 40px;
+ 	}
+
+ 	#pi_section2 label {
+ 		font-size: 15px;
+ 	}
+
+ 	#pi_section2 .form_with{
+ 		max-width: 250px;
+ 	}
+ 	#pi_section2 .carousel-indicators {
+	    position: absolute;
+	    left: 44%;
+	    z-index: 100;
+	    width: 60%;
+	    margin-left: -30%;
+	    padding-left: 0;
+	    list-style: none;
+	    text-align: center;
+	    bottom: 50px;
+	}
+ 	#pi_section2 .carousel-indicators li {
+	    display: inline-block;
+	    width: 12px;
+	    height: 12px;
+	    margin: 1px;
+	    text-indent: -999px;
+	    border: 1px solid #1c222b;
+	    border-radius: 10px;
+	    cursor: pointer;
+	}
+
+	#pi_section2 .pi_btn{
+		position: absolute;
+		bottom: 60px;
+		right: 36%;
+	}
+/* 
+	=========================
+	[3. Health History ]
+	=========================
+*/	
+
+	/* Health History Subtitle Description */
+
+	.hh_discription{
+		max-width: 600px;
+	}
+
+	/* Health History Choice */
+
+	.cp_line{
+		width: 750px;
+		padding-left: 30px;
+	}
+
+	.cp_line2{
+		width: 750px;
+		padding-left: 30px;
+		padding-top: 65px;
+
+	}
+
+	.cp_line3{
+		width: 750px;
+		padding-left: 30px;
+		padding-top: 75px;
+
+	}
+
+	.cpain_line{
+		position: absolute; /* Made it to Position Absolute coz the ui can align with the radios , History_choice is the parent for position:relative; */
+		padding-top: 45px;
+		text-align: left;
+	}
+
+	.rl_line{
+		position: absolute; /* Made it to Position Absolute coz the ui can align with the radios , History_choice is the parent for position:relative; */
+		padding-top: 106px;
+		text-align: left;
+	}
+
+	.sp_line{
+		position: absolute; /* Made it to Position Absolute coz the ui can align with the radios , History_choice is the parent for position:relative; */
+		padding-top: 165px;
+		text-align: left;
+	}
+
+	#gyn_surgery{
+		width: 170px;
+	}
+
+	#pregnant {
+		width: 170px;
+	}
+
+	.rl_line{
+		width: 750px;
+	}
+
+	.mj_gap{
+		padding-bottom: 60px;
+	}
+
+	.mj_gap2{
+		padding-bottom: 65px;
+	}
+
+	.subtitle_toptb{
+		padding-top: 0;
+	}
+
+	.cd_tb{
+		padding-top: 40px;
+	}
+
+	.cd_xtb {
+		padding-top: 20px;
+	}
+
+	.subtitle_bottom{
+		padding-bottom: 13px;
+	}
+
+	.subtitle_bottomp{
+		padding-left: 15px;
+		padding-right: 15px;
+		padding-bottom: 13px;
+	}
+
+	.history_choice .carousel-indicators {
+	    position: absolute;
+	    left: 44%;
+	    z-index: 100;
+	    width: 60%;
+	    margin-left: -30%;
+	    padding-left: 0;
+	    list-style: none;
+	    text-align: center;
+	    bottom: 50px;
+	}
+ 	.history_choice .carousel-indicators li {
+	    display: inline-block;
+	    width: 12px;
+	    height: 12px;
+	    margin: 1px;
+	    text-indent: -999px;
+	    border: 1px solid #1c222b;
+	    border-radius: 10px;
+	    cursor: pointer;
+	}
+
+	.history_choice .pi_btn{
+		position: absolute;
+		bottom: 60px;
+		right: 36%;
+	}
+
+	/* 
+	=========================
+	[3. Login Page]
+	=========================
+*/
+	.login{
+		padding-top: 55%;
+	}
+
+	.login .container{
+		width: 500px;
+	}
+
+	.login .form-control{
+ 		padding-bottom: 0;
+ 		border-bottom: 0;
+ 		border-width:0px;
+		border:none;
+		border-bottom: 1px #e6e7e8 solid;
+		padding-left: 0;
+	}
+
+	.signin_btn {
+		margin-top:100px;
+
+	}
+
+		/* 
+	=========================
+	[3. Nav ]
+	=========================
+*/	
+	.navbar input[type="search"]{
+		font-size: 16px;
+		padding-top: 0;
+		font-weight: 400px;
+		width: 200px;
+	}
+
+	.right_nav ul li{
+		padding-bottom: 20px;
+		padding-top: 30px;
+	}
+
+	.navbar label{
+		padding-left: 0px;
+	}
+
+	.navbar .form-horizontal .control-label{
+		text-align: left;
+		width: 20px;
+	}
+	
+	.navbar .right_nav{
+		right: 0;
+		padding-right: 25px;
+
+	}
+		/* 
+	=========================
+	[3. Client Information]
+	=========================
+*/	
+	#client_info_section .container{
+		width: 780px;
+		margin: 0 auto;
+		padding-right: 25px;
+	}
+	/* Client Information Section 1 */
+
+	#client_info_section1 #cil_list{
+		padding-left: 15px;
+		padding-right: 15px;
+	}
+
+	#client_info_right {
+		background: white;
+		padding-bottom: 45px;
+		padding-left: 20px;
+		padding-top: 50px;
+	}
+
+	#client_info_section1 #client_info_right #cir_cell, #cir_work{
+		width: 110px;
+	}
+
+	/* Client Information Section 3 */
+
+	#client_info_section #cis2_hometab #home_tabr #hometab_duration{
+		padding-right: 30px;
+	}
+
+	#client_info_section #cis2_hometab #home_tabr #hometab_session{
+		padding-right: 30px;
+	}
+
+	#client_info_section #cis2_hometab #hometab_date{
+		padding-left: 20px;
+	}
+
+	#client_info_section3 .visible-sm{
+		display: inline-block!important;
+	}
+
+
+}
+
+@media (max-width: 979px){
+   
+
+    
+
+}
+
+
+@media screen and (max-width: 768px) {
+
+    #welcome {
+		padding-top: 120px;
+		padding-bottom: 120px;
+	}
+
+
+	#welcome_info .container {
+		padding-top: 100px;
+		padding-bottom: 80px;
+		max-width: 700px;
+	}
+
+	#welcome_confirm {
+		padding-top: 100px;
+
+	}
+
+	/* MOBILE DISPLAY  */
+	#welcome_mobile {
+		display: none;
+	}
+
+	/* Personal Information Section 1 */
+
+ 	#pi_section1{
+ 		padding-top: 100px;
+ 	}
+
+ 	#section1_margin{
+ 		padding-top: 120px;
+ 	}
+
+ 	#pi_section1 img{
+ 		width: 280px;
+ 		height: 280px;
+ 	}
+
+ 	#pi_section1 .form-control{
+ 		width: 300px;
+		font-size: 16px;
+ 	}
+
+ 	#pi_section1 label{
+ 		float: left;
+ 		padding-top: 10px;
+ 		padding-right: 20px;
+ 		font-size: 17px;
+ 	}
+
+ 	/* Personal Information Section 1 */
+ 	#pi_section2 {
+ 		padding-top: 45px;
+ 		padding-bottom: 150px;
+ 	}
+ 	#pi_section2 .container{
+ 		padding-left: 40px;
+ 		padding-right: 40px;
+ 	}
+
+ 	#pi_section2 label {
+ 		font-size: 15px;
+ 	}
+
+ 	#pi_section2 .form_with{
+ 		max-width: 250px;
+ 	}
+ 	#pi_section2 .carousel-indicators {
+	    position: absolute;
+	    left: 44%;
+	    z-index: 100;
+	    width: 60%;
+	    margin-left: -30%;
+	    padding-left: 0;
+	    list-style: none;
+	    text-align: center;
+	    bottom: 50px;
+	}
+ 	#pi_section2 .carousel-indicators li {
+	    display: inline-block;
+	    width: 12px;
+	    height: 12px;
+	    margin: 1px;
+	    text-indent: -999px;
+	    border: 1px solid #1c222b;
+	    border-radius: 10px;
+	    cursor: pointer;
+	}
+
+	#pi_section2 .pi_btn{
+		position: absolute;
+		bottom: 60px;
+		right: 36%;
+	}
+
+/* 
+	=========================
+	[3. Health History ]
+	=========================
+*/	
+
+	/* Health History Subtitle Description */
+
+	.hh_discription{
+		max-width: 600px;
+	}
+
+	/* Health History Choice */
+
+	.cp_line{
+		width: 700px;
+		padding-left: 30px;
+	}
+
+	.cp_line2{
+		width: 700px;
+		padding-top: 65px;
+	}
+
+	.cp_line3{
+		width: 700px;
+		padding-top: 75px;
+	}
+
+	#gyn_surgery{
+		width: 130px;
+	}
+
+	#pregnant {
+		width: 130px;
+	}
+
+	.rl_line{
+		width: 750px;
+	}
+
+	.cpain_line{
+		position: absolute; /* Made it to Position Absolute coz the ui can align with the radios , History_choice is the parent for position:relative; */
+		padding-top: 45px;
+		text-align: left;
+	}
+
+	.rl_line{
+		position: absolute; /* Made it to Position Absolute coz the ui can align with the radios , History_choice is the parent for position:relative; */
+		padding-top: 106px;
+		text-align: left;
+	}
+
+	.sp_line{
+		position: absolute; /* Made it to Position Absolute coz the ui can align with the radios , History_choice is the parent for position:relative; */
+		padding-top: 165px;
+		text-align: left;
+	}
+	
+	.mj_gap{
+		padding-bottom: 60px;
+	}
+
+	.mj_gap2{
+		padding-bottom: 65px;
+	}
+
+	.subtitle_toptb{
+		padding-top: 0;
+	}
+
+	.cd_tb{
+		padding-top: 40px;
+	}
+
+	.cd_xtb {
+		padding-top: 20px;
+	}
+
+	.subtitle_bottom{
+		padding-bottom: 13px;
+	}
+
+	.subtitle_bottomp{
+		padding-bottom: 13px;
+		padding-left: 10px;
+		padding-right: 10px;
+	}
+
+	.history_choice .carousel-indicators {
+	    position: absolute;
+	    left: 44%;
+	    z-index: 100;
+	    width: 60%;
+	    margin-left: -30%;
+	    padding-left: 0;
+	    list-style: none;
+	    text-align: center;
+	    bottom: 50px;
+	}
+ 	.history_choice .carousel-indicators li {
+	    display: inline-block;
+	    width: 12px;
+	    height: 12px;
+	    margin: 1px;
+	    text-indent: -999px;
+	    border: 1px solid #1c222b;
+	    border-radius: 10px;
+	    cursor: pointer;
+	}
+
+	.history_choice .pi_btn{
+		position: absolute;
+		bottom: 60px;
+		right: 36%;
+	}
+
+	/* 
+	=========================
+	[3. Login Page]
+	=========================
+*/
+	.login{
+		padding-top: 45%;
+	}
+
+	.login .container{
+		width: 500px;
+	}
+
+	.login .form-control{
+ 		padding-bottom: 0;
+ 		border-bottom: 0;
+ 		border-width:0px;
+		border:none;
+		border-bottom: 1px #e6e7e8 solid;
+		padding-left: 0;
+	}
+
+	.signin_btn {
+		margin-top:100px;
+
+	}
+
+
+
+	/* 
+	=========================
+	[3. Nav ]
+	=========================
+*/	
+	.navbar input[type="search"]{
+		font-size: 16px;
+		padding-top: 0;
+		font-weight: 400px;
+		width: 200px;
+	}
+
+	.navbar label{
+		padding-left: 0px;
+	}
+
+	.navbar .form-horizontal .control-label{
+		text-align: left;
+		width: 20px;
+	}
+	
+	.right_nav ul li{
+		padding-bottom: 20px;
+		padding-top: 30px;
+	}
+
+
+	.navbar .right_nav{
+		right: 0;
+		padding-right: 25px;
+
+	}
+		/* 
+	=========================
+	[3. Client Information]
+	=========================
+*/	
+	#client_info_section .container{
+		width: 730px;
+		margin: 0 auto;
+		padding-right: 25px;
+	}
+	/* Client Information Section 1 */
+
+	#client_info_section1 #cil_list{
+		padding-left: 15px;
+		padding-right: 15px;
+	}
+
+	#client_info_right {
+		background: white;
+		padding-bottom: 45px;
+		padding-left: 20px;
+		padding-top: 45px;
+	}
+
+	#client_info_section1 #client_info_right #cir_cell, #cir_work{
+		width: 110px;
+	}
+
+	/* Client Information Section 3 */
+
+	#client_info_section #cis2_hometab #home_tabr #hometab_duration{
+		padding-right: 30px;
+	}
+
+	#client_info_section #cis2_hometab #home_tabr #hometab_session{
+		padding-right: 30px;
+	}
+
+	#client_info_section #cis2_hometab #hometab_date{
+		padding-left: 20px;
+	}
+
+	#client_info_section3 .visible-sm{
+		display: inline-block!important;
+	}
+
+}
+
+@media (min-width: 480px) and (max-width: 767px){
+
+	#welcome_mobile {
+		display: none;
+	}
+
+	.hh_discription{
+		display: none;
+	}
+
+	.history_choice{
+		display: none
+	}
+	
+		
+}
+
+@media (max-width: 480px){
+
+	#welcome,#pi_section1,#pi_section2,.page_title,.page_name {
+		display: none;
+	}
+
+	#welcome_info{
+		display: none;
+	}
+
+		/* MOBILE DISPLAY  */
+	#welcome_mobile {
+		display: inherit;
+	}
+
+	.hh_discription{
+		display: none;
+	}
+
+	.history_choice{
+		display: none
+	}
+
+		/* 
+	=========================
+	[3. Nav ]
+	=========================
+*/	.navbar {
+	height: 60px;
+	}
+	.glyphicon-menu-hamburger{
+		font-size: 30px;
+		border-right: 1px solid #e6e7e8;
+		padding-right: 10px;
+		padding-top: 10px;
+		padding-left: 10px;
+		padding-bottom: 10px;
+	}
+
+	.navbar input[type="search"]{
+		font-size: 16px;
+		padding-top: 0;
+		font-weight: 400px;
+		width: 200px;
+	}
+
+	.right_nav ul li{
+		border-right: none;
+		border-left: none;
+		height: 100%; 
+	}
+	.navbar .navbar_mobileul{
+		margin-bottom: 0;
+	}
+	.navbar label{
+		padding-left: 0px;
+	}
+	.navbar .mobileSize_search{
+		padding-left: 0;
+		padding-right: 0;
+	}
+	.navbar .form-horizontal{
+		padding-top: 0;
+		padding-left: 15px;
+	}
+
+	.navbar .form-horizontal .form-group{
+		padding-top: 10px;
+	}
+	.navbar .form-horizontal .control-label{
+		text-align: left;
+		width: 20px;
+		padding-top: 7px;
+		padding-right: 5px;
+	}
+	.navbar h4{
+		display: none;
+
+	}
+	
+	.navbar .right_nav{
+		right: 0;
+		padding-right: 25px;
+
+	}
+
+	.navbar .right_nav .glyphicon-cog{
+		display: none;
+	}
+
+	.navbar .right_nav .glyphicon-off{
+		display: none;
+	}
+		/* 
+	}
+	=========================
+	[3. Client Information]
+	=========================
+*/	
+	#client_info_section .container{
+		width: 300px;
+		margin: 0 auto;
+		padding-right: 15px;
+	}
+	/* Client Information Section 1 */
+
+	#client_info_section1 #cil_list{
+		padding-left: 30px;
+		padding-right:30px;
+	}
+
+	#client_info_left{
+		margin-bottom: 10px;
+	}
+	#client_info_right {
+		background: white;
+		padding-bottom: 45px;
+		padding-left: 20px;
+		padding-top: 45px;
+	}
+
+	#client_info_section1 #client_info_right #cir_cell, #cir_work{
+		width: 110px;
+	}
+
+	#client_info_section1 .cis_mobilegap{
+		padding-right: 0;
+		padding-left: 0;
+	}
+
+	#client_info_right .cir_paddingbottom{
+		padding-bottom: 5px;
+	}
+
+	/* Client Information Section 2 */
+
+
+	/* Client Information Section 3 */
+
+	/* Client Information Section 3 */
+	#client_info_section3 {
+		margin-top: 20px;
+		margin-left: -15px;
+	}
+
+	#client_info_section3 .container{
+		width: 320px;
+		margin: 0 auto;
+		padding-right: 20px;
+		
+	}
+	#client_info_section3 .tab-pane {
+		padding-top: 10px;
+	}
+
+	#client_info_section #cis2_hometab #home_tabr #hometab_duration{
+		padding-right: 10px;
+	}
+
+	#client_info_section #cis2_hometab #home_tabr #hometab_session{
+		padding-right: 30px;
+		display: none;
+	}
+	#client_info_section #cis2_hometab #hometab_p{
+		display: none;
+	}
+	#client_info_section #cis2_hometab #hometab_date{
+		padding-left: 0px;
+	}
+
+	#client_info_section3 .nav-tabs #navTabs_upc{
+		display: none;
+	}
+
+	#client_info_section3 .nav-tabs #navTabs_ar{
+		display: none;
+	}
+
+
+
+}
