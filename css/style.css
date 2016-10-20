@@ -1250,12 +1250,17 @@
 		right: 0;
 		top: 0;
 		padding-right: 20px;
+		padding-top: 10px;
 	}
 
 	#client_info_section1 #client_info_right #cis_edit_btn button{
 		background: none;
 		border:none;
-		padding: 15px;
+		padding: 10px;
+	}
+
+	#client_info_section1 #client_info_right #cis_edit_btn .cis_edit_btn_save{
+		display: none;
 	}
 
 	#client_info_right li>p{
