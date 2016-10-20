@@ -1188,6 +1188,10 @@
 		width: 110px;
 	}
 
+	#client_info_section1 #client_info_right .cir_paddingbottom{
+		padding-bottom: 16px;
+	}
+
 	/* Client Information Section 3 */
 
 	#client_info_section #cis2_hometab #home_tabr #hometab_duration{
