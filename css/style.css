@@ -1249,7 +1249,15 @@
 		position: absolute;
 		right: 0;
 		top: 0;
+		padding-right: 20px;
 	}
+
+	#client_info_section1 #client_info_right #cis_edit_btn button{
+		background: none;
+		border:none;
+		padding: 15px;
+	}
+
 	#client_info_right li>p{
 		margin-bottom: 0;
 	}
