@@ -1263,6 +1263,10 @@
 		display: none;
 	}
 
+	#client_info_section1 .cis_form{
+		display: none;
+	}
+
 	#client_info_right li>p{
 		margin-bottom: 0;
 	}
