@@ -252,11 +252,11 @@
 							<img src="../img/client_profile.jpg" class="img-responsive"/>
 
 							<ul id="cil_list">
-								<li class="cis_label"><h3>{{curContact.tcm_basic_contact.name}}</h3></li>
-								<li class="cis_form"><input ng-model="curContact.tcm_basic_contact.name" type="text" class="form-control" id="name" placeholder="Name"></li>
-								<li class="cis_label"><h4>{{curContact.tcm_basic_contact.occupation}} </h4></li>
-								<li class="cis_form"><input ng-model="curContact.tcm_basic_contact.occupation" type="text" class="form-control" id="occupation" placeholder="Occupation"></li>
-								<li class="cis_label">
+								<li class="cis_label" ng-show="!editMode"><h3>{{curContact.tcm_basic_contact.name}}</h3></li>
+								<li class="cis_form" ng-show="editMode"><input ng-model="curContact.tcm_basic_contact.name" type="text" class="form-control" id="name" placeholder="Name"></li>
+								<li class="cis_label" ng-show="!editMode"><h4>{{curContact.tcm_basic_contact.occupation}} </h4></li>
+								<li class="cis_form" ng-show="editMode"><input ng-model="curContact.tcm_basic_contact.occupation" type="text" class="form-control" id="occupation" placeholder="Occupation"></li>
+								<li class="cis_label" ng-show="!editMode">
 									<ul class="left_padding_no">
 										<li><p id="cil_cell">Cell</p></li>
 										<li><p> {{curContact.tcm_basic_contact.cell_phone}}</p></li>
@@ -265,9 +265,9 @@
 
 								<li>
 									<ul class="left_padding_no">
-										<li class="cis_label"><p id="cil_email">E-mail</p></li>
-										<li class="cis_form"><input ng-model="curContact.tcm_basic_contact.email" type="text" class="form-control" id="email" placeholder="Enter Your Email Here"></li>
-										<li class="cis_label"><p>{{curContact.tcm_basic_contact.email}}</p></li>
+										<li class="cis_label" ng-show="!editMode"><p id="cil_email">E-mail</p></li>
+										<li class="cis_form" ng-show="editMode"><input ng-model="curContact.tcm_basic_contact.email" type="text" class="form-control" id="email" placeholder="Enter Your Email Here"></li>
+										<li class="cis_label" ng-show="!editMode"><p>{{curContact.tcm_basic_contact.email}}</p></li>
 									</ul>
 								</li>
 
@@ -278,9 +278,9 @@
 
 					<div class="col-sm-8 col-xs-12 visible-xl visible-lg visible-md visible-sm" id="client_info_right">
 
-					<ul class="list-inline" id="cis_edit_btn">
-						<li>
-						<button>
+					<ul class="list-inline" id="cis_edit_btn" >
+						<li ng-show="!editMode">
+						<button ng-click="edit()">
 							<ul class="list-inline">
 								<li><span class="glyphicon glyphicon-pencil"></span></li>
 								<li><p>Edit</p></li>
@@ -288,8 +288,8 @@
 						</button>
 						</li>
 
-						<li class="cis_edit_btn_save">
-						<button>
+						<li class="cis_edit_btn_save" ng-show="editMode">
+						<button ng-click="save()">
 							<ul class="list-inline">
 								<li><span class="glyphicon glyphicon-saved"></span></li>
 								<li><p>Save</p></li>
@@ -301,8 +301,8 @@
 							<div class="col-sm-5 cir_paddingbottom">
 								<ul class="left_padding_no">
 									<li><p class="cir_title">Date of Birth</p></li>
-									<li class="cis_label"><p>{{curContact.tcm_basic_contact.birth_date}}</p></li>
-									<li class="cis_form"><input ng-model="curContact.tcm_basic_contact.birth_date" type="date" class="form-control" id="birth_date" placeholder="YYYY/MM/DD"></li>
+									<li class="cis_label" ng-show="!editMode"><p>{{curContact.tcm_basic_contact.birth_date | date}}</p></li>
+									<li class="cis_form" ng-show="editMode"><input ng-model="curContact.tcm_basic_contact.birth_date" type="date" class="form-control" id="birth_date" placeholder="YYYY/MM/DD"></li>
 
 								</ul>
 							</div>
@@ -310,8 +310,8 @@
 							<div class="col-sm-3 cir_paddingbottom">
 								<ul class="left_padding_no">
 									<li><p class="cir_title">Height</p></li>
-									<li class="cis_label"><p>{{curContact.tcm_basic_contact.height}} cm</p></li>
-									<li class="cis_form"><input ng-model="curContact.tcm_basic_contact.height" type="text" class="form-control form_with" id="height" placeholder="cm/ft"></li>
+									<li class="cis_label" ng-show="!editMode"><p>{{curContact.tcm_basic_contact.height}} cm</p></li>
+									<li class="cis_form" ng-show="editMode"><input ng-model="curContact.tcm_basic_contact.height" type="text" class="form-control form_with" id="height" placeholder="cm/ft"></li>
 
 								</ul>
 
@@ -320,8 +320,8 @@
 							<div class="col-sm-3 cir_paddingbottom">
 								<ul class="left_padding_no">
 									<li><p class="cir_title">Weight</p></li>
-									<li class="cis_label"><p>{{curContact.tcm_basic_contact.weight}} kg</p></li>
-									<li class="cis_form"><input ng-mode="weight" type="text" class="form-control form_with" id="weight" placeholder="lb/kg"></li>
+									<li class="cis_label" ng-show="!editMode"><p>{{curContact.tcm_basic_contact.weight}} kg</p></li>
+									<li class="cis_form" ng-show="editMode"><input ng-mode="weight" type="text" class="form-control form_with" id="weight" placeholder="lb/kg"></li>
 								</ul>
 							</div>
 						<!-- First Part End -->
@@ -330,16 +330,16 @@
 							<div class="col-sm-5 cir_paddingbottom">
 								<ul class="left_padding_no">
 									<li><p class="cir_title">Address</p></li>
-									<li class="cis_label"><p>{{curContact.tcm_basic_contact.address}}</p></li>
-									<li class="cis_form"><input ng-model="curContact.tcm_basic_contact.address" type="text" class="form-control form_with" id="address" placeholder="House/apt # and street"></li>
+									<li class="cis_label" ng-show="!editMode"><p>{{curContact.tcm_basic_contact.address}}</p></li>
+									<li class="cis_form" ng-show="editMode"><input ng-model="curContact.tcm_basic_contact.address" type="text" class="form-control form_with" id="address" placeholder="House/apt # and street"></li>
 								</ul>
 							</div>
 
 							<div class="col-sm-3 cir_paddingbottom">
 								<ul class="left_padding_no">
 									<li><p class="cir_title">Postal Code</p></li>
-									<li class="cis_label"><p>{{curContact.tcm_basic_contact.postal_code}}</p></li>
-									<li class="cis_form"><input ng-model="curContact.tcm_basic_contact.postal_code" type="text" class="form-control form_with" id="postal_code" placeholder="Enter Postal Code Here"></li>
+									<li class="cis_label" ng-show="!editMode"><p>{{curContact.tcm_basic_contact.postal_code}}</p></li>
+									<li class="cis_form" ng-show="editMode"><input ng-model="curContact.tcm_basic_contact.postal_code" type="text" class="form-control form_with" id="postal_code" placeholder="Enter Postal Code Here"></li>
 								</ul>
 
 							</div>
@@ -349,16 +349,16 @@
 							<div class="col-sm-5 cir_paddingbottom">
 								<ul class="left_padding_no">
 									<li><p class="cir_title">City</p></li>
-									<li class="cis_label"><p>{{curContact.tcm_basic_contact.city}}</p></li>
-									<li class="cis_form"><input ng-model="curContact.tcm_basic_contact.city" type="text" class="form-control form_with" id="city" placeholder="Enter Your City Here"></li>
+									<li class="cis_label" ng-show="!editMode"><p>{{curContact.tcm_basic_contact.city}}</p></li>
+									<li class="cis_form" ng-show="editMode"><input ng-model="curContact.tcm_basic_contact.city" type="text" class="form-control form_with" id="city" placeholder="Enter Your City Here"></li>
 								</ul>
 							</div>
 
 							<div class="col-sm-3 cir_paddingbottom">
 								<ul class="left_padding_no">
 									<li><p class="cir_title">Province</p></li>
-									<li class="cis_label"><p>{{curContact.tcm_basic_contact.provnice}}</p></li>
-									<li class="cis_form"><input ng-model="curContact.tcm_basic_contact.province" type="text" class="form-control form_with" id="province" placeholder="Enter Your Province Here"></li>
+									<li class="cis_label" ng-show="!editMode"><p>{{curContact.tcm_basic_contact.province}}</p></li>
+									<li class="cis_form" ng-show="editMode"><input ng-model="curContact.tcm_basic_contact.province" type="text" class="form-control form_with" id="province" placeholder="Enter Your Province Here"></li>
 								</ul>
 
 							</div>
@@ -368,16 +368,16 @@
 							<div class="col-sm-5 cir_paddingbottom">
 								<ul class="left_padding_no">
 									<li><p class="cir_title">Telephone ( Home )</p></li>
-									<li class="cis_label"><p>{{curContact.tcm_basic_contact.home_phone}}</p></li>
-									<li class="cis_form"><input ng-model="curContact.tcm_basic_contact.home_phone" type="text" class="form-control form_with" id="home_phone" placeholder="Enter Home Number Here"></li>
+									<li class="cis_label" ng-show="!editMode"><p>{{curContact.tcm_basic_contact.home_phone}}</p></li>
+									<li class="cis_form" ng-show="editMode"><input ng-model="curContact.tcm_basic_contact.home_phone" type="text" class="form-control form_with" id="home_phone" placeholder="Enter Home Number Here"></li>
 								</ul>
 							</div>
 
 							<div class="col-sm-3 cir_paddingbottom">
 								<ul class="left_padding_no">
 									<li><p class="cir_title">Cell</p></li>
-									<li class="cis_label"><p id="cir_cell">{{curContact.tcm_basic_contact.cell_phone}}</p></li>
-									<li class="cis_form"><input ng-model="curContact.tcm_basic_contact.cell_phone" type="text" class="form-control form_with" id="cell" placeholder="Enter Cell Number Here"></li>
+									<li class="cis_label" ng-show="!editMode"><p id="cir_cell">{{curContact.tcm_basic_contact.cell_phone}}</p></li>
+									<li class="cis_form" ng-show="editMode"><input ng-model="curContact.tcm_basic_contact.cell_phone" type="text" class="form-control form_with" id="cell" placeholder="Enter Cell Number Here"></li>
 								</ul>
 
 							</div>
@@ -385,8 +385,8 @@
 							<div class="col-sm-3 cir_paddingbottom">
 								<ul class="left_padding_no">
 									<li><p class="cir_title">Work</p></li>
-									<li class="cis_label"><p id="cir_work">{{curContact.tcm_basic_contact.work_phone}}</p></li>
-									<li class="cis_form"><input ng-model="curContact.tcm_basic_contact.work_phone" type="text" class="form-control form_with" id="work" placeholder="Enter Work Number Here"></li>
+									<li class="cis_label" ng-show="!editMode"><p id="cir_work">{{curContact.tcm_basic_contact.work_phone}}</p></li>
+									<li class="cis_form" ng-show="editMode"><input ng-model="curContact.tcm_basic_contact.work_phone" type="text" class="form-control form_with" id="work" placeholder="Enter Work Number Here"></li>
 								</ul>
 							</div>
 						<!-- Fourth Part End -->
@@ -397,8 +397,8 @@
 
 								<ul class="left_padding_no">
 									<li><p class="cir_title" style="padding-bottom:10px;">To contact you, which way do you prefer:</p></li>
-									<li class="cis_label"><p>Cell Home</p></li>
-									<li class="cis_form">
+									<li class="cis_label" ng-show="!editMode"><p>{{curContact.tcm_basic_contact.preferred_contact}}</p></li>
+									<li class="cis_form" ng-show="editMode">
 						              	<select ng-model="curContact.tcm_basic_contact.preferred_contact"class=" form-control">
 										  <option>Home Phone</option>
 										  <option>Cell Phone</option>

@@ -2,7 +2,7 @@
 	========================================
     CRYSTAL FOUNTAIN - COSTUME THEME
 	========================================
-	
+
     @author         : EIDO DESIGN
     @version        : v1.1
     @date-create    : 6/6/2016
@@ -16,7 +16,7 @@
 	========================================
 	TABLE OF CONTENT
 	========================================
-	
+
 	[1. IMPORT FONTS]
 	[2. GLOBAL STYLE]
 	[3. NAVBAR]
@@ -45,7 +45,7 @@
 	@import url("https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css");
 
 
-/* 
+/*
 	==================
 	[2. GLOBAL STYLE]
 	==================
@@ -60,7 +60,7 @@
 	    overflow-x: hidden;
 	    position: relative;
 	}
-	
+
 	p {
 		font-family: 'Roboto', sans-serif;
 	}
@@ -83,16 +83,16 @@
 		padding: 20px 0;
 	}
 
-	::-moz-selection { 
-		background: #f6f7f7; 
-		color: black; 
-		text-shadow: none; 
+	::-moz-selection {
+		background: #f6f7f7;
+		color: black;
+		text-shadow: none;
 	}
 
-	::selection { 
-		background: #f6f7f7; 
-		color: black; 
-		text-shadow: none; 
+	::selection {
+		background: #f6f7f7;
+		color: black;
+		text-shadow: none;
 	}
 
 	.breadcrumb {
@@ -113,17 +113,17 @@
 	}
 
 	.btn.btn-primary {
-	    background-color: #2980b9; 
+	    background-color: #2980b9;
 	    border-color: #2980b9;
 	}
 
 	.btn.btn-primary:hover, .btn.btn-primary:focus {
-	    background-color: #3498DB; 
+	    background-color: #3498DB;
 	    border-color: #3498DB;
 	}
-	    
+
 	.btn.btn-primary:active, .btn.btn-primary.active {
-	    background-color: #3498DB; 
+	    background-color: #3498DB;
 	    border-color: #3498DB;
 	}
 
@@ -204,12 +204,12 @@
 		width:30px;
 		position:fixed;
 		left:50%;
-		bottom:2%; 
+		bottom:2%;
 		display: initial;
 		z-index: 9000;
 		opacity: .8;
 
-	/* Arrow Animation */ 
+	/* Arrow Animation */
 	    -webkit-animation: bounce 2s infinite ease-in-out;
 		}
 
@@ -226,14 +226,14 @@
 	  vertical-align: middle;
 	}
 
-/* 
+/*
 	=========================
 	[3. Mobile Menu ]
 	=========================
 */
 	/* Initial menu */
 	.side_menu {
-	  background: #202024; 
+	  background: #202024;
 	  left: -285px;  /* start off behind the scenes */
 	  height: 100vh;
 	  position: fixed;
@@ -396,12 +396,12 @@
 	}
 
 
-/* 
+/*
 	=========================
 	[3. Nav ]
 	=========================
-*/	
-	
+*/
+
 
 	.glyphicon-menu-hamburger{
 		font-size: 30px;
@@ -465,7 +465,7 @@
 	.right_nav ul li{
 		border-right: 1px #e6e7e8 solid;
 		border-left: 1px #e6e7e8 solid;
-		height: 100%; 
+		height: 100%;
 	}
 	.navbar h4{
 		color: #58585b;
@@ -486,7 +486,7 @@
 
 
 
-/* 
+/*
 	==================
 	[3. COSTUME STYLE]
 	==================
@@ -538,7 +538,7 @@
 	}
 
 
-/* 
+/*
 	==================
 	[3. COSTUME STYLE]
 	==================
@@ -579,12 +579,12 @@
 		font-weight: 400;
 	}
 
-/* 
+/*
 	=========================
 	[3. PERSONAL INFORMATION]
 	=========================
 */
-	
+
 	.page_title{
 		background: #27bcb8;
 		color: #ffffff;
@@ -593,7 +593,7 @@
 		padding-bottom: 5px;
 
 	}
- 	
+
  	.page_title h1{
  		font-size: 23px;
  		padding-top: 10px;
@@ -643,11 +643,11 @@
 		padding-top: 25px;
 	}
 
-/* 
+/*
 	=========================
 	[3. Health History ]
 	=========================
-*/	
+*/
 	.radio input[type="checkbox"], .radio input[type="radio"] {
 		transform: scale(1.5) !important;
 		-webkit-transform: scale(1.5) !important;
@@ -745,7 +745,7 @@
 
 	.hhrow_leftpadding{
 		padding-left: 100px;
-	}  
+	}
 
 	.hcol_marign{
 		margin-right: 25px;
@@ -901,12 +901,12 @@
 		padding-top: 5px;
 	}
 
-/* 
+/*
 	=========================
 	[3. Health History Party II]
 	=========================
-*/	
-	
+*/
+
 	/* Surgery Section */
 
 	.surgery_section {
@@ -1108,7 +1108,7 @@
 		font-size: 14px;
 	}
 
-/* 
+/*
 	=========================
 	[3. Login Page]
 	=========================
@@ -1168,11 +1168,11 @@
 		margin: 0 auto;
 
 	}
-/* 
+/*
 	=========================
 	[3. Client Information]
 	=========================
-*/	
+*/
 	#client_info_section {
 		background: #f1f1f2;
 		padding-bottom: 30px;
@@ -1208,11 +1208,11 @@
 	}
 
 	#client_info_section1 #cil_list #cil_cell{
-		margin-bottom: 0;	
+		margin-bottom: 0;
 	}
 
 	#client_info_section1 #cil_list #cil_email{
-		margin-bottom: 0;	
+		margin-bottom: 0;
 	}
 
 	#client_info_right {
@@ -1260,11 +1260,11 @@
 	}
 
 	#client_info_section1 #client_info_right #cis_edit_btn .cis_edit_btn_save{
-		display: none;
+	
 	}
 
 	#client_info_section1 .cis_form{
-		display: none;
+
 	}
 
 	#client_info_right li>p{
@@ -1322,7 +1322,7 @@
 
 	#client_info_section #cis2_condition li h4{
 		padding-left: 20px;
-	}	
+	}
 
 	#client_info_section #cis2_condition #cis2_date{
 		float: right;
@@ -1345,7 +1345,7 @@
 
 	#client_info_section #cis2_otherinfo li h4{
 		padding-left: 20px;
-	}	
+	}
 
 	#client_info_section #cis2_otherinfo #cis2_date{
 		float: right;

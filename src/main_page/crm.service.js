@@ -9,5 +9,8 @@
     this.fetchData= function(){
       return $http.get("https://salty-journey-18993.herokuapp.com/contacts.json");
     }
+    this.update= function(obj){
+      return $http.post("https://salty-journey-18993.herokuapp.com/contacts/"+obj._id);
+    }
   }
 })();
