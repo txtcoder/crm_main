@@ -1,0 +1,40 @@
+    <div class="login">
+    	<div class="container">
+
+        <div class="entrance_logo">
+
+          <ul class="paddingrl_none">
+            <li><h1>ATOMOUS</h1></li>
+            <li><h4>Our one sentence slogan yat yat yat</h4></li>
+          </ul>
+
+        </div>
+
+      <form>
+
+  	    	<ul class="paddingrl_none">
+  		    	 <li class="login_gap">
+  		          <div class="form-group">
+  		              <input ng-model="login.username" type="text" class="form-control form_with" id="username" placeholder="Username Here">
+  	       	 		</div>
+  	       	 	</li>
+
+  	       	 	<li>
+  		          <div class="form-group">
+  		              <input ng-model="login.password" type="text" class="form-control form_with" id="password" placeholder="Password Here">
+  	       	 		</div>
+  	       	 	</li>
+
+              <li class="keep_signin">
+                <label class="radio-inline checkbox-circle">
+                  <input type="radio" id="inlineCheckbox2" name="signedin" value="save_pass"> Keep me signed in
+                </label>
+              </li>
+  		    </ul>
+
+          <button ng-click="login.login()" type="submit" class="btn btn-default signin_btn">Sign in</button>
+
+      </form>
+
+		  </div>
+    </div>
