@@ -445,6 +445,11 @@
 		padding-top: 0;
 		font-weight: 400px;
 	}
+
+	.navbar #search_number{
+		float: right;
+	}
+
 	.navbar label{
 		padding-right: 0px;
 	}
