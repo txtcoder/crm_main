@@ -249,7 +249,7 @@
 				<div class="row">
 					<div class="col-sm-4 col-xs-12 cis_mobilegap">
 						<div id="client_info_left">
-							<img src="../img/client_profile.jpg" class="img-responsive"/>
+							<img src="img/client_profile.jpg" class="img-responsive"/>
 
 							<ul id="cil_list">
 								<li class="cis_label" ng-show="!editMode"><h3>{{curContact.tcm_basic_contact.name}}</h3></li>
@@ -311,7 +311,7 @@
 								<ul class="left_padding_no">
 									<li><p class="cir_title">Height</p></li>
 									<li class="cis_label" ng-show="!editMode"><p>{{curContact.tcm_basic_contact.height}} cm</p></li>
-									<li class="cis_form" ng-show="editMode"><input ng-model="curContact.tcm_basic_contact.height" type="text" class="form-control form_with" id="height" placeholder="cm/ft"></li>
+									<li class="cis_form" ng-show="editMode"><input ng-model="curContact.tcm_basic_contact.height" type="text" class="form-control form_with" id="height" placeholder="cm"></li>
 
 								</ul>
 
@@ -321,7 +321,7 @@
 								<ul class="left_padding_no">
 									<li><p class="cir_title">Weight</p></li>
 									<li class="cis_label" ng-show="!editMode"><p>{{curContact.tcm_basic_contact.weight}} kg</p></li>
-									<li class="cis_form" ng-show="editMode"><input ng-mode="weight" type="text" class="form-control form_with" id="weight" placeholder="lb/kg"></li>
+									<li class="cis_form" ng-show="editMode"><input ng-model="curContact.tcm_basic_contact.weight" type="text" class="form-control form_with" id="weight" placeholder="kg"></li>
 								</ul>
 							</div>
 						<!-- First Part End -->
