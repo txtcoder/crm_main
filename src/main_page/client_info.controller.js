@@ -15,8 +15,8 @@
       });
     });
 
-    console.log($scope.contacts);
-    $scope.curContact=$scope.contacts[0];
-    console.log(this.curContact);
+    $scope.edit = function(){
+      
+    }
   }
 })();
