@@ -265,6 +265,31 @@
 		padding-top: 30px;
 	}
 
+	/* 
+	=========================
+	[3. Contact Page]
+	=========================
+*/
+
+	#contact_tabs .tab-content .ct_colorCircle{
+		display: none;
+	}
+
+	#contact_tabs .tab-content .ct_moreInfo{
+		padding-top: 0;
+		margin-top: -20px;
+		margin-right: -20px;
+	}
+
+	#contact_tabs .tab-content .ct_phoneList{
+		padding-right: 40px;
+	}
+
+	#contact_tabs .tab-content .ct_breakLine{
+		width: 780px;
+
+	}
+
 }
 
 @media screen and (min-width:992px) and (max-width:1440px){
@@ -553,6 +578,66 @@
 		padding-bottom: 20px;
 		padding-top: 30px;
 	}
+
+	/* 
+	=========================
+	[3. Contact Page]
+	=========================
+*/	#contact_tabs .tab-content #alphabetTab .visible-md{
+		display: inline-block!important;
+	}
+
+	#contact_tabs .tab-content .ct_colorCircle{
+		display: none;
+	}
+
+	#contact_tabs .tab-content .ct_moreInfo{
+		padding-top: 0;
+		margin-top: -20px;
+		margin-right: -20px;
+	}
+
+	#contact_tabs .tab-content .ct_phoneList{
+		padding-right: 40px;
+	}
+
+	#contact_tabs .tab-content .ct_alphabreakLine{
+		width: 800px;
+
+	}
+
+	#contact_tabs .tab-content .ct_Header{
+		margin-bottom: 30px;
+		width: 800px;
+	}
+
+	/* Lastest Visit Start */
+	#contact_tabs .tab-content .ct_visitbreakLine{
+		width: 900px;
+
+	}
+
+	#contact_tabs .tab-content .ct_visitHeader{
+		margin-bottom: 30px;
+		width: 900px;
+	}
+
+	/* Lastest Visit End */
+
+	/* New Client Tab Start */
+
+	#contact_tabs .tab-content .ct_newHeader{
+		margin-bottom: 30px;
+		width: 900px;
+	}
+
+	/* Upcoming Tab Start */
+	#contact_tabs .tab-content .ct_comingHeader{
+		margin-bottom: 30px;
+		width: 900px;
+	}
+
+
 }
 
 
@@ -873,6 +958,69 @@
 
 	#client_info_section3 .visible-sm{
 		display: inline-block!important;
+	}
+
+	/* 
+	=========================
+	[3. Contact Page]
+	=========================
+*/
+	#contact_tabs .tab-content #alphabetTab .visible-sm{
+		display: inline-block!important;
+	}
+
+	#contact_tabs .tab-content .ct_emailGroup{
+		display: none;
+	}
+
+	#contact_tabs .tab-content .ct_colorCircle{
+		display: none;
+	}
+
+	#contact_tabs .tab-content .ct_moreInfo{
+		padding-top: 0;
+		margin-top: -20px;
+		margin-right: -20px;
+	}
+
+	#contact_tabs .tab-content .ct_phoneList{
+		padding-right: 40px;
+	}
+
+	#contact_tabs .tab-content .ct_alphabreakLine{
+		width: 630px;
+
+	}
+
+	#contact_tabs .tab-content .ct_Header{
+		margin-bottom: 30px;
+		width: 630px;
+	}
+
+	/* Lastest Visit Start */
+	#contact_tabs .tab-content .ct_visitbreakLine{
+		width: 680px;
+
+	}
+
+	#contact_tabs .tab-content .ct_visitHeader{
+		margin-bottom: 30px;
+		width: 680px;
+	}
+
+	/* Lastest Visit End */
+
+	/* New Client Tab Start */
+
+	#contact_tabs .tab-content .ct_newHeader{
+		margin-bottom: 30px;
+		width: 680px;
+	}
+
+	/* Upcoming Tab Start */
+	#contact_tabs .tab-content .ct_comingHeader{
+		margin-bottom: 30px;
+		width: 680px;
 	}
 
 
@@ -1210,6 +1358,64 @@
 		display: inline-block!important;
 	}
 
+	/* 
+	=========================
+	[3. Contact Page]
+	=========================
+*/
+
+	#contact_tabs .tab-content .ct_emailGroup{
+		display: none;
+	}
+
+	#contact_tabs .tab-content .ct_colorCircle{
+		display: none;
+	}
+
+	#contact_tabs .tab-content .ct_moreInfo{
+		padding-top: 0;
+		margin-top: -20px;
+		margin-right: -20px;
+	}
+
+	#contact_tabs .tab-content .ct_phoneList{
+		padding-right: 40px;
+	}
+
+	#contact_tabs .tab-content .ct_alphabreakLine{
+		width: 630px;
+
+	}
+
+	#contact_tabs .tab-content .ct_Header{
+		margin-bottom: 30px;
+		width: 630px;
+	}
+
+	/* Lastest Visit Start */
+	#contact_tabs .tab-content .ct_visitbreakLine{
+		width: 680px;
+
+	}
+
+	#contact_tabs .tab-content .ct_visitHeader{
+		margin-bottom: 30px;
+		width: 680px;
+	}
+
+	/* New Client Tab Start */
+
+	#contact_tabs .tab-content .ct_newHeader{
+		margin-bottom: 30px;
+		width: 680px;
+	}
+
+	/* Upcoming Tab Start */
+	#contact_tabs .tab-content .ct_comingHeader{
+		margin-bottom: 30px;
+		width: 680px;
+	}
+
 }
 
 @media (min-width: 480px) and (max-width: 767px){
@@ -1226,6 +1432,20 @@
 		display: none
 	}
 	
+		/* 
+	=========================
+	[3. Contact Page]
+	=========================
+*/
+
+	#contact_tabs .tab-content .ct_left{
+		padding-left: 10px;
+	}
+
+	#contact_tabs .tab-content .ct_colorCircle{
+		display: none;
+	}
+
 		
 }
 
@@ -1407,6 +1627,92 @@
 		display: none;
 	}
 
+		/* 
+	=========================
+	[3. Contact Page]
+	=========================
+*/
+
+	#contact_tabs .tab-content .ct_phoneList{
+		display: none;
+	}
+	#contact_tabs .tab-content .ct_alphabetList{
+		display: none;
+	}
+
+	#contact_tabs .tab-content #alphabetTab{
+		padding-top: 0;
+	}
+
+	#contact_tabs .tab-content .ct_left{
+		width: 185px;
+		padding-left: 20px;
+	}
+
+	#contact_tabs .tab-content .ct_phoneGroup{
+		display: none;
+	}
+
+	#contact_tabs .tab-content .ct_dateGroup{
+		display: none;
+	}
+
+	#contact_tabs .tab-content .ct_contactImg{
+		display: none;
+	}
+
+	#contact_tabs .tab-content .ct_moreInfo{
+		padding-top: 0;
+		margin-top: 0px;
+		margin-right: 0px;
+	}
+
+	#contact_tabs .tab-content .ct_colorCircle {
+		width: 20px;
+		height:20px;
+		border-radius: 50px;
+		margin-bottom: 10px;
+		display: inherit;
+
+	}
+
+	#contact_tabs .tab-content .ct_alphabreakLine{
+		width: 100%;
+
+	}
+
+	#contact_tabs .tab-content .ct_Header{
+		margin-bottom: 30px;
+		width: 100%;
+	}
+
+	/* Lastest Visit Start */
+	#contact_tabs .tab-content .ct_visitbreakLine{
+		width: 100%;
+
+	}
+
+	#contact_tabs .tab-content .ct_visitHeader{
+		margin-bottom: 30px;
+		width: 100%;
+	}
+
+	/* New Client Tab Start */
+
+	#contact_tabs .tab-content .ct_newHeader{
+		margin-bottom: 30px;
+		width: 100%;
+	}
+
+	#contact_tabs .tab-content #alphabetTab .container{
+		padding: 0;
+	}
+
+	/* Upcoming Tab Start */
+	#contact_tabs .tab-content .ct_comingHeader{
+		margin-bottom: 30px;
+		width: 100%;
+	}
 
 
 }

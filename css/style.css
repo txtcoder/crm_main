@@ -1435,3 +1435,279 @@
 	#client_info_section #cis2_hometab #home_tabr #hometab_session{
 		padding-right: 100px;
 	}
+
+	/* 
+	=========================
+	[3. Contacts list Page]
+	=========================
+*/
+	.icon_label, #contact_tabs{
+	background: #f1f1f2;
+	}
+
+	#contact_tabs {
+		position: relative;
+	}
+	#contact_tabs .tab-content{
+		background: #ffffff;
+		max-width: 960px;
+	}
+
+	#contact_tabs .contactNav-tabs{
+		margin-bottom: 20px;
+		border-bottom: none;
+	}
+
+	#contact_tabs .contactNav-tabs a{
+		text-decoration: none;
+	}
+
+	#contact_tabs .contactNav-tabs p{
+		margin-bottom: 0;
+	}
+
+	/* Alphabet Start */
+	#contact_tabs .contactNav-tabs #navTabs_alpha{
+		background: #ffffff;
+		padding: 10px;
+		padding-right: 15px;
+		padding-left: 15px;
+	}
+	#contact_tabs .contactNav-tabs #navTabs_alpha.active{
+		background: #ffffff;
+	}
+
+	#contact_tabs .contactNav-tabs #navTabs_alpha:focus{
+		background: #ffffff;
+	}
+
+	#contact_tabs .contactNav-tabs #navTabs_alpha:hover{
+		background: #ffffff;
+	}
+
+	#contact_tabs .contactNav-tabs #navTabs_alpha p{
+		color: #58585b;
+	}
+
+	/* Alphabet End */
+
+	/* Lastest Visito Start */
+	#contact_tabs .contactNav-tabs #navTabs_lv{
+		background: #f8a471;
+		padding: 10px;
+		padding-right: 15px;
+		padding-left: 15px;
+	}
+	#contact_tabs .contactNav-tabs #navTabs_lv.active{
+		background: #f98b4e;
+	}
+
+	#contact_tabs .contactNav-tabs #navTabs_lv:focus{
+		background: #f98b4e;
+	}
+
+	#contact_tabs .contactNav-tabs #navTabs_lv:hover{
+		background: #f98b4e;
+	}
+
+	#contact_tabs .contactNav-tabs #navTabs_lv p{
+		color: #ffffff;
+	}
+
+	/* Lateset Visit End */
+
+	/* New Client Start */
+	#contact_tabs .contactNav-tabs #navTabs_nc{
+		background: #f27074;
+		padding: 10px;
+		padding-right: 15px;
+		padding-left: 15px;
+	}
+	#contact_tabs .contactNav-tabs #navTabs_nc.active{
+		background: #ef3f4c;
+	}
+
+	#contact_tabs .contactNav-tabs #navTabs_nc:focus{
+		background: #ef3f4c;
+	}
+
+	#contact_tabs .contactNav-tabs #navTabs_nc:hover{
+		background: #ef3f4c;
+	}
+
+	#contact_tabs .contactNav-tabs #navTabs_nc p{
+		color: #ffffff;
+	}
+
+	/* New Client End */
+
+	/* Upcoming Session  Start */
+	#contact_tabs .contactNav-tabs #navTabs_upc{
+		background: #88a0cc;
+		padding: 10px;
+		padding-right: 15px;
+		padding-left: 15px;
+	}
+	#contact_tabs .contactNav-tabs #navTabs_upc.active{
+		background: #5d89c7;
+	}
+
+	#contact_tabs .contactNav-tabs #navTabs_upc:focus{
+		background: #5d89c7;
+	}
+
+	#contact_tabs .contactNav-tabs #navTabs_upc:hover{
+		background: #5d89c7;
+	}
+
+	#contact_tabs .contactNav-tabs #navTabs_upc p{
+		color: #ffffff;
+	}
+
+	/* Upcomming Session End */
+
+	/* Alphabet Tab Start */
+	#contact_tabs .tab-content #alphabetTab{
+		padding-top: 30px;
+	}
+
+	#contact_tabs .tab-content .ct_alphabetList{
+		padding-left: 20px;
+
+	}
+
+	#contact_tabs .tab-content .ct_alphabetList p{
+		color: #d1d2d4;
+	}
+
+	#contact_tabs .tab-content .ct_alphabetList p:hover{
+		color: #58585b;
+	}
+
+	#contact_tabs .tab-content .ct_alphabetList .active{
+		color: #58585b;
+	}
+
+	#contact_tabs .tab-content .ct_alphabreakLine{
+		border-bottom: 1px solid #e6e7e8;
+		padding-top: 60px;
+		margin-bottom: 20px;
+
+	}
+
+	#contact_tabs .tab-content .ct_Header{
+		background: #25bcb7;
+	}
+
+	#contact_tabs .tab-content .ct_Header ul{
+		margin-bottom: 0;
+	}
+
+	#contact_tabs .tab-content #ct_Letter{
+		color: white;
+		padding-top: 3px;
+		padding-bottom: 3px;
+		padding-left: 10px;
+		margin-bottom: 0;
+	}
+
+	#contact_tabs .tab-content #ct_headDate{
+		float: right;
+	}
+
+	#contact_tabs .tab-content #ct_headDate p{
+		color: #ffffff;
+		padding-top: 3px;
+		padding-bottom: 3px;
+		padding-right: 5px;
+	}
+
+	/* Alphabet Tab End */
+
+	/* Lastest Visit Tab Start */
+
+	#contact_tabs .tab-content .ct_visitHeader{
+		background: #f8a471;
+	}
+
+	#contact_tabs .tab-content .ct_visitHeader ul{
+		margin-bottom: 0;
+	}
+
+	#contact_tabs .tab-content #ct_visitLetter{
+		color: white;
+		padding-top: 3px;
+		padding-bottom: 3px;
+		padding-left: 10px;
+		margin-bottom: 0;
+	}
+
+	#contact_tabs .tab-content #ct_visitheadDate{
+		float: right;
+	}
+
+	#contact_tabs .tab-content #ct_visitheadDate p{
+		color: #ffffff;
+		padding-top: 3px;
+		padding-bottom: 3px;
+		padding-right: 5px;
+	}
+
+	#contact_tabs .tab-content .ct_visitbreakLine{
+		border-bottom: 1px solid #e6e7e8;
+		padding-top: 60px;
+		margin-bottom: 20px;
+
+	}
+
+	/* Lastest New Client Tab Start */
+
+	#contact_tabs .tab-content .ct_newHeader{
+		background: #f27074;
+	}
+
+	#contact_tabs .tab-content .ct_newHeader ul{
+		margin-bottom: 0;
+	}
+
+	/* Up Coming Tab Start */
+
+	#contact_tabs .tab-content .ct_comingHeader{
+		background: #88a0cc;
+	}
+
+	#contact_tabs .tab-content .ct_comingHeader ul{
+		margin-bottom: 0;
+	}
+
+
+	#contact_tabs .tab-content .ct_contactImg{
+		padding-bottom: 20px;
+	}
+
+	#contact_tabs .tab-content .contact-img{
+		width: 50px;
+		height: auto;
+		margin-top: -23px;
+	}
+
+	#contact_tabs .tab-content .ct_phoneDate{
+		float: right;
+	}
+
+	
+	#contact_tabs .tab-content .ct_moreInfo {
+		float: right;
+		background: none;
+		border: none;
+		padding-top: 15px;
+		padding-right: 0;
+		padding-left: 20px;
+		position: absolute;
+		right: 0;
+	}
+
+	#contact_tabs .tab-content .ct_topList p{
+		margin-bottom: 0;
+		padding-top: 5px;
+	}
