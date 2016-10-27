@@ -20,6 +20,10 @@
       templateUrl: 'src/main_page/client_info.html',
       controller: 'ClientInfoController as client_info'
     })
+    .state('contacts', {
+      url: '/contacts',
+      templateUrl: 'src/contacts/contacts.html'
+    })
 
   }
 
