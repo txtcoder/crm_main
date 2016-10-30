@@ -29,12 +29,15 @@
       CrmService.update($scope.curContact);
     }
 
-    $scope.contactFilter = function(contact) {
-      console.log(contact);
-      return (contact.tcm_basic_contact.name.indexOf(searchTerm) !== -1);
-    }
+    $scope.contactFilter = function(criteria) {
+      return function( contact ){
+        return contact.tcm_basic_contact.name.indexOf($scope.searchTerm) !== -1;
+      };
+    };
+
     $scope.updateCur = function(contact){
       $scope.curContact=contact;
+      $scope.toggleSearch();
     }
   }
 })();

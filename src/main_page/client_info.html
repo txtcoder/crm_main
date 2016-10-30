@@ -201,12 +201,12 @@
 						  <div class="form-group">
 						    <label for="search" class="col-xs-2 col-sm-2 control-label"><span class="glyphicon glyphicon-search"></span></label>
 						    <div class=" col-xs-10 col-sm-10 mobileSize_search">
-						    	<input ng-click="toggleSearch()" type="search" class="form-control visible-xl visible-lg visible-md" id="search" placeholder="Search your client or the person your looking for here
+						    	<input ng-click="toggleSearch()" ng-model="searchTerm" type="search" class="form-control visible-xl visible-lg visible-md" id="search" placeholder="Search your client or the person your looking for here
 	">
 								<input ng-model="searchTerm" type="search" class="form-control  visible-sm visible-xs" id="search" placeholder="Search Client Here">
 
 								<ul class="left_padding_no search_contact_list" ng-show="doSearch">
-									<li ng-repeat="contact in contacts">
+									<li ng-repeat="contact in contacts | filter:contactFilter(criteria)">
 										<ul class="left_padding_no list-inline">
 										<li ng-click="updateCur(contact)"><p>{{contact.tcm_basic_contact.name}}</p></li>
 										<li id="search_number"><p> {{contact.tcm_basic_contact.cell_phone}}</p></li>
