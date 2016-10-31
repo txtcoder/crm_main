@@ -1725,12 +1725,14 @@
 		margin: 0 auto;
 		text-align: center;
 		font-family: 'Arapey', serif;
+		width: 500px;
 	}
 
 	#clock_content h1 {
 		font-family: 'Arapey', serif;
 		margin-bottom: 0;
 		color: #58585b;
+		font-size: 50px;
 	}
 
 
@@ -1741,5 +1743,7 @@
 		margin: 0 auto;
 		color: #58585b;
 		background-color: #f1f1f2;
+		width: 150px;
+		font-size: 17px;
 
 	}
