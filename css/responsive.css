@@ -646,6 +646,10 @@
 		width: 500px;
 	}
 
+	#clock_content h1 {
+		font-size: 45px;
+	}
+
 }
 
 

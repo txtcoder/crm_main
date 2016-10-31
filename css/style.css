@@ -1720,4 +1720,13 @@
 	#clock_content{
 		margin: 0 auto;
 		text-align: center;
+		font-family: 'Arapey', serif;
+	}
+
+	#clock_content h1 {
+		font-family: 'Arapey', serif;
+	}
+
+	#clock_content select{
+		font-family: 'Arapey', serif;
 	}
