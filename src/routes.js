@@ -25,6 +25,11 @@
       templateUrl: 'src/contacts/contacts.html'
     })
 
+    .state('agenda', {
+      url: '/agenda',
+      templateUrl: 'src/agenda/agenda.html'
+    })
+
   }
 
 })();
