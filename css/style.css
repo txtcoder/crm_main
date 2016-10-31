@@ -1716,7 +1716,11 @@
 	=========================
 	[3. AGENDA PAGE]
 	=========================
-*/
+*/	
+	#clock_section{
+		background-color: #f1f1f2;
+	}
+
 	#clock_content{
 		margin: 0 auto;
 		text-align: center;
@@ -1725,8 +1729,17 @@
 
 	#clock_content h1 {
 		font-family: 'Arapey', serif;
+		margin-bottom: 0;
+		color: #58585b;
 	}
+
 
 	#clock_content select{
 		font-family: 'Arapey', serif;
+		border: none;
+		box-shadow: none;
+		margin: 0 auto;
+		color: #58585b;
+		background-color: #f1f1f2;
+
 	}

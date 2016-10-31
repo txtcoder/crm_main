@@ -647,7 +647,13 @@
 	}
 
 	#clock_content h1 {
-		font-size: 45px;
+		font-size: 50px;
+	}
+
+	#clock_content select{
+		width: 150px;
+		font-size: 17px;
+
 	}
 
 }
