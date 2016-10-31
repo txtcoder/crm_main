@@ -1711,3 +1711,13 @@
 		margin-bottom: 0;
 		padding-top: 5px;
 	}
+
+	/*
+	=========================
+	[3. AGENDA PAGE]
+	=========================
+*/
+	#clock_content{
+		margin: 0 auto;
+		text-align: center;
+	}
