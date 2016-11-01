@@ -642,7 +642,7 @@
 	[3. AGENDA PAGE]
 	=========================
 */
-	#agenda_section {
+	#agenda_section .container {
 		min-height: 500px;
 	}
 

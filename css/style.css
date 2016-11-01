@@ -1719,6 +1719,7 @@
 */	
 	#clock_section{
 		background-color: #f1f1f2;
+		padding-bottom: 60px;
 	}
 
 	#clock_content{
@@ -1743,29 +1744,8 @@
 		margin: 0 auto;
 		color: #58585b;
 		background-color: #f1f1f2;
-
-
-	}
-
-
-	/*
-	=========================
-	[3. AGENDA PAGE]
-	=========================
-*/
-	#clock_content{
-		width: 500px;
-		padding-bottom: 70px;
-	}
-
-	#clock_content h1 {
-		font-size: 50px;
-	}
-
-	#clock_content select{
 		width: 150px;
 		font-size: 17px;
-
 	}
 
 	.list-profile{
@@ -1779,11 +1759,24 @@
 	}
 
 	#agenda_section {
-		padding-top: 30px;
+		background-color: #f1f1f2;
+	}
+
+	#agenda_section .container{
+		background-color: #ffffff;
+		padding-top: 40px;
 	}
 
 	#agenda_section .dropdown-menu.pull-right{
 		right: 0;
+	}
+
+	#agenda_section .pull-right{
+		right: 0;
+	}
+
+	#agenda_section .dateLeft_padding{
+		padding-left: 30px;
 	}
 
 	#agenda_section .agenda_btn button{
