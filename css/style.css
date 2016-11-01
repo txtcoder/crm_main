@@ -1773,6 +1773,18 @@
 		margin-top: -23px;
 	}
 
+	.list_btn{
+		float: right;
+	}
+
+	#agenda_section {
+		padding-top: 30px;
+	}
+
+	#agend_section .dropdown-menu.pull-right{
+		right: 0;
+	}
+
 	#agenda_section .list_marginBottomNO{
 		margin-bottom: 0;
 	}
