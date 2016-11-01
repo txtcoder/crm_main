@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en" id="clientInfo_background">
+<html  ng-app="Crm" lang="en" id="clientInfo_background">
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,7 +8,7 @@
 
 
 
-    <title>Atomous | Client Registration</title>
+    <title ng-bind="'NovataSoft &mdash;' + title">NovataSoft</title>
 
     <!-- Google Font Roboto 400,700 ,900-->
     <link href="https://fonts.googleapis.com/css?family=Roboto:400,700,900" rel="stylesheet">
@@ -32,7 +32,7 @@
     <![endif]-->
   </head>
 
-  <body ng-app="Crm">
+  <body>
    <ui-view></ui-view>
 
       <!-- Libraries -->
