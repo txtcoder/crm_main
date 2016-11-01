@@ -1843,7 +1843,9 @@
 		display: none;
 	}
 
-
+	#agenda_section .agenda_btn{
+		padding-right: 0;
+	}
 	#agenda_section .list_colorCircle {
 		width: 20px;
 		height:20px;
@@ -1851,6 +1853,24 @@
 		margin-bottom: 10px;
 		display: inherit;
 
+	}
+
+	#agenda_section .agenda_btn .glyphicon-list{
+		margin-top: -10px;
+		padding-right: 0;
+	}
+
+	#agenda_section .glyphicon-chevron-right{
+		padding-top: 10px;
+		padding-left: 0;
+	}
+
+	#agenda_section .agenda_info_btn{
+		display: initial;
+	}
+
+	#agenda_section .agenda_btn .glyphicon{
+		font-size: 16px;
 	}
 
 }
