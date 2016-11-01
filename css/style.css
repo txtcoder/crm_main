@@ -1755,6 +1755,7 @@
 */
 	#clock_content{
 		width: 500px;
+		padding-bottom: 70px;
 	}
 
 	#clock_content h1 {
@@ -1781,11 +1782,37 @@
 		padding-top: 30px;
 	}
 
-	#agend_section .dropdown-menu.pull-right{
+	#agenda_section .dropdown-menu.pull-right{
 		right: 0;
+	}
+
+	#agenda_section .agenda_btn button{
+		background: none;
+		border: none;
+		padding-right: 0;
+	}
+
+	#agenda_section .agenda_btn .glyphicon{
+		font-size: 20px;
+	}
+
+	#agenda_section .agenda_btn .glyphicon-list{
+		margin-top: -10px;
+		padding-right: 10px;
+	}
+
+	#agenda_section .glyphicon-chevron-right{
+		padding-top: 10px;
+		padding-left: 15px;
 	}
 
 	#agenda_section .list_marginBottomNO{
 		margin-bottom: 0;
 	}
+
+	#agenda_section .list_breakLine{
+		border-bottom: 1px solid #e6e7e8;
+		padding-top: 60px;
+		margin-bottom: 20px;
+
 
