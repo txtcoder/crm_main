@@ -1873,4 +1873,27 @@
 		font-size: 16px;
 	}
 
+	#agenda_section #collapseAgenda_info{
+		width: 100%;
+		/* background: #f9f9f9;  (White grey background )*/
+		background: #25bcb7;
+		padding: 15px;
+		margin-top:-20px;
+		color: white;
+	}
+
+	#agenda_section #collapseAgenda_info ul{
+		/* border-bottom: 1px solid #e6e7e8; */
+		border-bottom: 1px solid #20a59f;
+	}
+
+	.mobile_paddingNo{
+		padding-left: 0;
+		padding-right: 0;
+	}
+
+	.mobile_namePadding{
+		padding-left: 15px;
+	}
+
 }
